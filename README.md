@@ -23,3 +23,9 @@ the components/u8g2_components/u8g2 folder is a cloned version of the official U
 # credit
 
 Thank you Neil Kolban for getting the ball rolling https://github.com/nkolban/esp32-snippets
+
+# for vscode users
+
+Be aware when you clone the code, my .vscode/settings.json will be different to yours so you will get autocomplete and compilation issues if you use the vscode terminal.
+
+A simple solution is to override the .vscode directory with one from a project that you know works or create a new dummy project and copy / replace the .vscode folder from this repository with yours.
